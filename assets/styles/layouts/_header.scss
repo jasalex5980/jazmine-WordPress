@@ -1,0 +1,42 @@
+nav.navbar.navbar-default {
+  background-color: #fff;
+  border-bottom: 1px solid $light-border-color;
+  height: em(70);
+  line-height: em(70);
+
+  a.navbar-brand {
+    padding-top: 12px;
+
+    img {
+      height: 34px;
+      width: 116px;
+    }
+  }
+}
+
+.nav {
+  margin: 5px auto;
+
+  &.main-nav {
+    padding-top: 8px;
+  }
+
+  > li > a {
+    padding: 15px 9px;
+    font-size: em(16);
+
+    &.icon {
+      padding: 13px 7px;
+
+      &.first {
+        padding-left: 15px;
+      }
+
+      > img {
+        height: 24px;
+        width: 24px;
+        max-width: 24px;
+      }
+    }
+  }
+}

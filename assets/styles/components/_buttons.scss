@@ -1,0 +1,29 @@
+a.callout-btn,
+button.submit {
+  background-color: $brand-primary;
+  border-color: $brand-primary;
+  border-style: solid;
+  border-radius: 4px;
+  color: #fff !important;
+  margin-right: 15px;
+  margin-top: 7px;
+  padding: 5px 20px !important;
+
+  &:hover {
+    background-color: darken($brand-primary, 5%) !important;
+    border-color: darken($brand-primary, 5%) !important;
+    color: #fff !important;
+    text-decoration: none;
+  }
+
+  &.light-blue {
+    background-color: $light-blue;
+    border-color: $light-blue;
+
+    &:hover {
+      background-color: darken($light-blue, 5%) !important;
+      border-color: darken($light-blue, 5%) !important;
+      color: #fff !important;
+    }
+  }
+}

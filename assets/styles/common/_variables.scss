@@ -1,0 +1,25 @@
+// Glyphicons font path
+$icon-font-path:        "../fonts/";
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300|Raleway:400,500,600,300);
+$roboto: 'Roboto', sans-serif;
+$raleway: 'Raleway', sans-serif;
+
+// Grid settings
+$main-sm-columns:       12;
+$sidebar-sm-columns:    4;
+
+// Colors
+$brand-primary:         #FF9016;
+$body-text:             #5A5A5A;
+$lighter-gray:          #9a9a9a;
+$light-gray:            #7a7a7a;
+$dark-blue:             #005C83;
+$light-blue:            #008AAD;
+$green:                 #62AF0E;
+$light-green:           #A3CF5E;
+$border-color:          #DDDDDD;
+$light-border-color:    #EEEEEE;
+$black:                 #2a2a2a;
+$white:                 #ffffff;
